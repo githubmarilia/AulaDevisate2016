@@ -1,6 +1,6 @@
 ﻿namespace AulaDevisate2016
 {
-    partial class Form1
+    partial class fMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // fMenu
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(686, 428);
+            this.Name = "fMenu";
+            this.Text = "MENU PRINCIPAL";
+            this.Load += new System.EventHandler(this.fMenu_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
